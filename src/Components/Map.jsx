@@ -35,7 +35,7 @@ const AppMap = () => {
 
   return (
     <>
-      <div ref={mapRef} style={{ width: "100%", height: "600px" }}></div>
+      <div ref={mapRef} style={{ width: "100%", height: "599px" }}></div>
       {view && <MapWidgets view={view} />}
       {map && <AddLayers map={map} view={view} />}
     </>
